@@ -103,11 +103,11 @@ class CoffeeMachine(
 
 fun main() {
     val coffeeMachine = CoffeeMachine(
-        400,
-        540,
-        120,
-        9,
-        550
+        water = 400,
+        milk = 540,
+        coffeeBeans = 120,
+        disposableCups = 9,
+        money = 550
     );
 
     coffeeMachine.runMachine()
